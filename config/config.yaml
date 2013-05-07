@@ -1,0 +1,26 @@
+Website_version: dev
+
+RestServer:
+  Url: http://.com
+  Format: json
+  Authentification:
+    Enabled: false
+    Method:
+    Username:
+    PassKey:
+
+TemplateConfig:
+  Cache: true
+  Charset: utf-8
+  Variables:
+    Static:
+    Remote:
+
+
+InternationalizationConfig:
+  Enabled: false
+  Default_language: French
+  Available:
+    French:
+      alias: fr
+      filename: fr_FR.UTF-8

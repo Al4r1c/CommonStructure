@@ -1,0 +1,33 @@
+{
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Al4r1c/AlaroxClassLoader"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/Al4r1c/AlaroxFileManager"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/Al4r1c/AlaroxFramework"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/Al4r1c/AlaroxXMLParser"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/Al4r1c/Twig_I18n"
+		}
+	],
+	"require": {
+		"alarox/AlaroxClassLoader": "v1.0",
+		"alarox-framework/AlaroxFramework": "dev-dev"
+	},
+	"autoload": {
+		"psr-0": {
+			"Application": "src/"
+		}
+	}
+}
