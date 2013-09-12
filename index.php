@@ -1,6 +1,8 @@
 <?php
 include_once(__DIR__ . '/config/bootstrap.php');
 
+include_once(__DIR__ . '/config/functions.php');
+
 include_once(__DIR__ . '/vendor/autoload.php');
 
 
@@ -11,6 +13,7 @@ $config = array(
     'templatesPath' => __DIR__ . '/src/application/templates/',
     'localesPath' => __DIR__ . '/public/locale/',
 );
+
 
 $main = new \AlaroxFramework\Main($config);
 echo $main->run();
