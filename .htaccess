@@ -214,6 +214,11 @@ AddDefaultCharset utf-8
   # Options +SymLinksIfOwnerMatch
     RewriteEngine On
   # RewriteBase /
+
+  	RewriteCond %{REQUEST_FILENAME} \.(gif|jpe?g|png|js|css|htc|swf|php|ico|txt|pdf|xml|woff)$
+  	RewriteRule ^ - [L]
+
+  	RewriteRule (.*) /index.php [QSA,NC,L]
 </IfModule>
 
 # ------------------------------------------------------------------------------
