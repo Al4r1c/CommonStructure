@@ -3,6 +3,10 @@ Default:
   action:
 
 RouteMap:
-
+  /exemple:
+    controller: Exemple
+    defaultAction: defaultMethodAction
+    mapping:
+      /goto: goToMethod
 
 Static:

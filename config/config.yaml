@@ -1,13 +1,15 @@
 Website_version: dev
 
 RestServer:
-  Url: http://.com
-  Format: json
-  Authentification:
-    Enabled: false
-    Method:
-    Username:
-    PassKey:
+  nomServeurRest:
+    Url: http://server.com
+    Format: json
+    Compression: gzip
+    Authentification:
+      Enabled: false
+      Method:
+      Username:
+      PassKey:
 
 TemplateConfig:
   Cache: true
@@ -15,7 +17,6 @@ TemplateConfig:
   Variables:
     Static:
     Remote:
-
 
 InternationalizationConfig:
   Enabled: false
