@@ -22,7 +22,7 @@
 		}
 	],
 	"require": {
-		"alarox/AlaroxClassLoader": "v1.0",
+		"alarox/AlaroxClassLoader": "v1.01",
 		"alarox-framework/AlaroxFramework": "dev-dev"
 	},
 	"autoload": {
